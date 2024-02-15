@@ -56,7 +56,7 @@ padding: 20px 0;
 font-weight: bold;
 color: #213458;
 }
-}
+
 
 h2 a {
 color: #213458;
@@ -85,8 +85,7 @@ margin-top: 10px;
 background: #F0E7D4 url("images/introimage.jpg");
 height: 200px; /* for IE */
 min-height: 200px; /* for not-IE */
--webkit-box-shadow: 3px 3px 7px #777;
--moz-box-shadow: 3px 3px 7px #777;
+box-shadow: 3px 3px 7px #777;
 }
 
 header h1 {
@@ -120,8 +119,7 @@ margin: 0 auto;
 width: 960px;
 display: block;
 float: left;
--webkit-box-shadow: 3px 3px 7px #777;
--moz-box-shadow: 3px 3px 7px #777;
+box-shadow: 3px 3px 7px #777;
 }
 
 nav .menu {
@@ -194,8 +192,7 @@ width: 610px;
 margin: 0 0 10px 0; 
 padding: 30px 20px 5px 20px;
 background-color: #F0E7D4;
--webkit-box-shadow: 3px 3px 7px #777;
--moz-box-shadow: 3px 3px 7px #777;
+box-shadow: 3px 3px 7px #777;
 }
 
 #content_full {
@@ -204,8 +201,7 @@ width: 920px;
 margin: 0 0 10px 0; 
 padding: 30px 20px 5px 20px;
 background-color: #F0E7D4;
--webkit-box-shadow: 3px 3px 7px #777;
--moz-box-shadow: 3px 3px 7px #777;
+box-shadow: 3px 3px 7px #777;
 }
 
 aside {
@@ -230,8 +226,7 @@ float: left;
 width: 200px;
 height: 200px;
 /* curved border radius */
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
+border-radius: 10px;
 }
 
 article .title {
@@ -259,8 +254,7 @@ float: left;
 width: 200px;
 height: 200px;
 /* curved border radius */
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
+border-radius: 10px;
 }
 
 #article_full .title {
@@ -283,8 +277,7 @@ aside section {
 margin: 0 0 10px 0;
 padding: 30px 15px;
 background-color: #F0E7D4;
--webkit-box-shadow: 3px 3px 7px #777;
--moz-box-shadow: 3px 3px 7px #777;
+box-shadow: 3px 3px 7px #777;
 }
 
 aside section ul {
@@ -312,8 +305,7 @@ background: #213458;
 width: 960px;
 color: #F0E7D4;
 margin-bottom: 10px;
--webkit-box-shadow: 3px 3px 7px #777;
--moz-box-shadow: 3px 3px 7px #777;
+box-shadow: 3px 3px 7px #777;
 }
 
 footer p {
